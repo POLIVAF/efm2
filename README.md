@@ -155,7 +155,7 @@ $("#alertaFormulario")
 👨‍💻 Autor
 
 Pablo Olivares Figueroa
-Desarrollador Fullstack JavaScript en formación
+Desarrollador Fullstack JavaScript
 
 📌 Estado del proyecto
 
