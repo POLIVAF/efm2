@@ -1,53 +1,117 @@
-aca va todo lo que haremos en este trabajo, de a poco
+🚀 IA Summer 2026 - Landing Page
 
-//"pagina de github alojada"
-git clone https://polivaf.github.io/EFM2/
+Landing page moderna y responsive para una conferencia tecnológica sobre Inteligencia Artificial. Diseñada para informar, captar atención y gestionar registros de usuarios de forma interactiva.
 
+📌 Descripción
 
-Secciones Requeridas:
+IA Summer 2026 es una landing page desarrollada como proyecto frontend que simula la promoción de una conferencia tecnológica.
 
-1-. Encabezado y Navbar: Una barra de navegación fija en la parte superior (sticky-top) con el nombre de la conferencia y enlaces a las diferentes secciones.
+El objetivo principal es:
 
-2-. Sección Principal (Hero): Una sección a todo lo ancho con un titular llamativo, una breve descripción del evento y un botón de llamada a la acción (CTA) prominente que diga "Regístrate Ahora".
+Presentar información del evento
+Mostrar conferencistas destacados
+Visualizar la agenda
+Permitir el registro de asistentes con validación en tiempo real
 
-4-. Sobre el Evento: Una sección que explique el propósito de la conferencia y lo que los asistentes pueden esperar.
+Este proyecto está enfocado en aplicar buenas prácticas de desarrollo frontend, diseño responsive y experiencia de usuario (UX).
 
-5-. Oradores (Speakers): Una grilla con perfiles de los oradores. Cada orador debe estar en una Card de Bootstrap con su foto, nombre y una breve biografía.
-Agenda (Schedule): Un diseño simple para la agenda. Puedes usar un List Group o Cards de Bootstrap para mostrar el programa.
+🎯 Características principales
+✅ Diseño completamente responsive
+✅ Navegación fluida con smooth scroll
+✅ Sección Hero con CTA (Call To Action)
+✅ Cards dinámicas para conferencistas
+✅ Agenda interactiva con Accordion
+✅ Formulario con validación en tiempo real
+✅ Feedback visual con Alert de Bootstrap
+✅ Modal para registro de usuarios
+✅ Contador regresivo animado (Flip Clock)
+🛠️ Tecnologías utilizadas
+HTML5 (estructura semántica)
+CSS3 (estilos personalizados)
+Bootstrap 5 (layout, componentes y utilidades)
+JavaScript (ES6+)
+jQuery (manipulación del DOM y eventos)
+🧠 Decisiones técnicas
+Se utilizó Bootstrap para acelerar el desarrollo UI manteniendo consistencia visual.
+Se implementó validación en frontend para mejorar la experiencia del usuario.
+Se integró jQuery para simplificar eventos y animaciones.
+El contador tipo Flip Clock se desarrolló para aportar dinamismo y diferenciación visual.
+📂 Estructura del proyecto
+IA-SUMMER/
+│
+├── index.html
+├── asset/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── img/
+│   └── favicon/
+│
+└── README.md
+⚙️ Instalación y ejecución
+Clonar el repositorio:
+git clone https://github.com/TU-USUARIO/ia-summer.git
+Entrar al proyecto:
+cd ia-summer
+Abrir el archivo:
+index.html
 
-6-. Formulario de Registro: Un formulario con campos para Nombre, Email y Cargo/Puesto de trabajo.
+👉 No requiere backend ni instalación de dependencias.
 
-7-.Componentes de Bootstrap Sugeridos: Navbar, Botones, Cards, Formularios, Modal (para la confirmación de registro), List Group.
+🧪 Validaciones implementadas
+Campos obligatorios
+Validación de formato de email
+Restricción de caracteres en nombre
+Validación de teléfono
+Feedback visual dinámico
+⚠️ Desafíos y aprendizajes
 
+Durante el desarrollo se enfrentaron varios desafíos:
 
-______
+🔹 Implementar un contador animado tipo flip clock
+🔹 Manejar correctamente la validación sin recargar la página
+🔹 Lograr un diseño completamente responsive
+🔹 Estructurar correctamente componentes de Bootstrap (Accordion, Modal)
 
-Estructura HTML: Tu archivo index.html debe usar etiquetas semánticas de HTML5 para una estructura clara y profesional (por ejemplo, <header>, <nav>, <main>, <section>, <footer>).
+💡 Aprendizaje clave:
 
-Framework Bootstrap: Este es un proyecto centrado en Bootstrap. Debes usar:
+Planificar la estructura y los componentes antes de codificar reduce errores y mejora la calidad del resultado final.
 
-El Sistema de Grillas de Bootstrap (<div class="container">, <div class="row">, <div class="col-md-4">, etc.) para crear tu diseño.
+📸 Demo
 
-Al menos cinco Componentes de Bootstrap diferentes (ej. Navbar, Botones, Cards, Formularios, Modal, Carrusel, Acordeón).
+👉 (Aquí puedes agregar tu link de despliegue cuando lo subas a hosting)
 
-Clases de Utilidad de Bootstrap para espaciado (m-3, py-4), colores (bg-primary, text-white), alineación de texto (text-center) y flexbox (d-flex).
+Ejemplo:
 
-Interactividad con JavaScript: ¡Tu página no debe ser estática!
+https://ia-summer.vercel.app
+🎥 Video de presentación
 
-Incluye un formulario de contacto o registro.
+👉 (Opcional pero altamente recomendado)
+Explica brevemente:
 
-Usando JavaScript, escucha el evento submit del formulario.
+Problema que resuelve
+Funcionalidades
+Momento técnico (código)
+👨‍💻 Autor
 
-Dentro del manejador del evento, previene el envío por defecto (event.preventDefault()) y realiza una validación simple (ej. verificar que los campos no estén vacíos).
+Pablo Olivares Figueroa
+Desarrollador Fullstack JavaScript en formación
 
-Si el formulario es válido, muestra un mensaje de éxito al usuario usando un Modal o Alert de Bootstrap.
+📌 Estado del proyecto
 
-Diseño Adaptable (Responsive): El sitio web final debe ser completamente adaptable y verse limpio y profesional en teléfonos móviles, tabletas y computadoras de escritorio.
+✅ Proyecto finalizado (versión MVP)
+🚀 Posibles mejoras futuras:
 
-Control de Versiones:
+Integración con backend (Node.js / Express)
+Base de datos para registros
+Autenticación de usuarios
+Panel administrativo
+⭐ Conclusión
 
-Inicializa un repositorio local de Git para tu proyecto.
+Este proyecto demuestra:
 
-Realiza commits frecuentes y significativos mientras construyes (ej. "feat: Agrega componente Navbar", "fix: Corrige layout responsive para móvil").
-
-Crea un repositorio público en GitHub y sube tu código final.
+Dominio de fundamentos frontend
+Uso correcto de Bootstrap
+Aplicación de lógica con JavaScript
+Buenas prácticas de UX/UI
