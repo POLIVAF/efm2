@@ -80,19 +80,74 @@ Planificar la estructura y los componentes antes de codificar reduce errores y m
 
 📸 Demo
 
-👉 ([Aquí puedes agregar tu link de despliegue cuando lo subas a hosting](https://efm2.vercel.app))
+👉 ([https://ia-summer.vercel.app](https://efm2.vercel.app))
 
-Ejemplo:
+🎯 Problema que resuelve
 
-https://ia-summer.vercel.app
-🎥 Video de presentación
+Esta aplicación resuelve la necesidad de centralizar la información de un evento tecnológico en una sola plataforma clara y atractiva.
 
-👉 (Opcional pero altamente recomendado)
-Explica brevemente:
+Actualmente, muchas conferencias presentan información dispersa o poco interactiva.
+IA Summer permite:
 
-Problema que resuelve
-Funcionalidades
-Momento técnico (código)
+Informar sobre el evento
+Mostrar a los conferencistas
+Presentar la agenda
+Gestionar registros de usuarios
+
+👉 Todo en una sola experiencia fluida y responsive.
+
+⚙️ Funcionalidades
+
+La aplicación incluye varias funcionalidades clave:
+
+🧭 Navegación dinámica con smooth scroll entre secciones
+🎤 Sección de conferencistas con cards responsivas
+📅 Agenda interactiva usando accordion de Bootstrap
+📝 Formulario de registro dentro de un modal
+✅ Validación en tiempo real de los datos del usuario
+🔔 Feedback visual mediante alertas dinámicas
+⏳ Contador regresivo animado (Flip Clock) para el evento
+
+👉 Todo diseñado con enfoque en experiencia de usuario (UX).
+
+💻 Momento técnico (código)
+
+Uno de los puntos más interesantes del proyecto es la validación del formulario con JavaScript, donde se controla la entrada del usuario sin recargar la página.
+
+Por ejemplo:
+
+let nombre = $("#nombre").val().trim();
+let email = $("#email").val().trim();
+
+if (!email) {
+  $("#email").after(
+    '<div class="invalid-feedback d-block text-danger">Campo obligatorio</div>'
+  );
+} else {
+  const regexEmail = /^[^\s@]+@[^\s@]+\.[A-Za-z]{2,}$/;
+  if (!regexEmail.test(email)) {
+    $("#email").after(
+      '<div class="invalid-feedback d-block text-danger">Email inválido</div>'
+    );
+  }
+}
+
+👉 Aquí:
+
+Se capturan los datos del usuario
+Se validan en tiempo real
+Se muestran errores dinámicos en la interfaz
+
+Además, si todo es correcto:
+
+$("#alertaFormulario")
+  .addClass("alert alert-success")
+  .html("<strong>Reservación exitosa:</strong> Te has inscrito correctamente.");
+
+👉 Esto mejora la experiencia del usuario sin recargar la página.
+
+“Este proyecto demuestra cómo combinar Bootstrap con JavaScript para crear una experiencia interactiva, validada y lista para escalar a una aplicación fullstack.
+
 👨‍💻 Autor
 
 Pablo Olivares Figueroa
@@ -107,11 +162,11 @@ Integración con backend (Node.js / Express)
 Base de datos para registros
 Autenticación de usuarios
 Panel administrativo
+
 ⭐ Conclusión
 
 Este proyecto demuestra:
-
-Dominio de fundamentos frontend
-Uso correcto de Bootstrap
-Aplicación de lógica con JavaScript
-Buenas prácticas de UX/UI
+-Dominio de fundamentos frontend
+-Uso correcto de Bootstrap
+-Aplicación de lógica con JavaScript
+-Buenas prácticas de UX/UI
