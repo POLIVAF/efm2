@@ -51,7 +51,7 @@ IA-SUMMER/
 └── README.md
 ⚙️ Instalación y ejecución
 Clonar el repositorio:
-git clone https://github.com/TU-USUARIO/ia-summer.git
+git clone https://github.com/POLIVAF/ia-summer.git
 Entrar al proyecto:
 cd ia-summer
 Abrir el archivo:
@@ -80,7 +80,7 @@ Planificar la estructura y los componentes antes de codificar reduce errores y m
 
 📸 Demo
 
-👉 (Aquí puedes agregar tu link de despliegue cuando lo subas a hosting)
+👉 ([Aquí puedes agregar tu link de despliegue cuando lo subas a hosting](https://efm2.vercel.app))
 
 Ejemplo:
 
