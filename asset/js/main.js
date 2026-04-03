@@ -120,7 +120,7 @@ $("#btnConfirmar").on("click", function () {
   // ==========================
   // FLIP CLOCK
   // ==========================
-  const eventDate = new Date("2026-02-01T00:00:00").getTime();
+  const eventDate = new Date("2026-05-01T00:00:00").getTime();
   let flipInterval;
 
   function pad(n) {
