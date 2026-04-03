@@ -1,3 +1,5 @@
+![alt text](asset/img/preview.png)
+
 🚀 IA Summer 2026 - Landing Page
 
 Landing page moderna y responsive para una conferencia tecnológica sobre Inteligencia Artificial. Diseñada para informar, captar atención y gestionar registros de usuarios de forma interactiva.
