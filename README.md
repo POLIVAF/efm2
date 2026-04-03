@@ -116,6 +116,7 @@ Uno de los puntos más interesantes del proyecto es la validación del formulari
 
 Por ejemplo:
 
+```js
 let nombre = $("#nombre").val().trim();
 let email = $("#email").val().trim();
 
@@ -131,6 +132,7 @@ if (!email) {
     );
   }
 }
+```
 
 👉 Aquí:
 
@@ -140,9 +142,11 @@ Se muestran errores dinámicos en la interfaz
 
 Además, si todo es correcto:
 
+```js
 $("#alertaFormulario")
   .addClass("alert alert-success")
   .html("<strong>Reservación exitosa:</strong> Te has inscrito correctamente.");
+```
 
 👉 Esto mejora la experiencia del usuario sin recargar la página.
 
